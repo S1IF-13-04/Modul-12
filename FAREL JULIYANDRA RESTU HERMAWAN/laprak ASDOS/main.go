@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n int
+	fmt.Scan(&n)
+	for i := 1; i <= n; i++ {
+		if i%2 == 0 {
+			fmt.Println(i)
+			fmt.Println("true")
+
+		}else {
+			fmt.Println(i)
+			fmt.Println("flase")
+		}
+		
+	}
+}
